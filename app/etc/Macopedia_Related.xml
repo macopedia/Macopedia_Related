@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Macopedia_Related>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Macopedia_Related>
+    </modules>
+</config>

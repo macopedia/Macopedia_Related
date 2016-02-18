@@ -1,0 +1,27 @@
+<config>
+    <global>
+        <helpers>
+            <macopedia_related>
+                <class>Macopedia_Related_Helper</class>
+            </macopedia_related>
+        </helpers>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_edit>Macopedia_Related_Block_Adminhtml_Catalog_Product_Edit</catalog_product_edit>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <macopedia_related before="Mage_Adminhtml">Macopedia_Related_Adminhtml</macopedia_related>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

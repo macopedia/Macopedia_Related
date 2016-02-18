@@ -1,0 +1,2 @@
+app/code/community/Macopedia/*                           app/code/community/Macopedia/
+app/etc/Macopedia_Related.xml                            app/etc/modules/Macopedia_Related.xml

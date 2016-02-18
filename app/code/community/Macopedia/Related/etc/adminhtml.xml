@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <macopedia_related translate="title" module="catalog">
+                <title>Manage related products</title>
+                <action>adminhtml/catalog_product/</action>
+                <sort_order>0</sort_order>
+                </macopedia_related>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <macopedia_related translate="title" module="macopedia_related">
+                                <title>Manage Related Products</title>
+                            </macopedia_related>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
