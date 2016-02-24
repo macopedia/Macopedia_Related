@@ -12,7 +12,8 @@ class Macopedia_Related_Adminhtml_Catalog_ProductController extends Mage_Adminht
         'adminhtml_catalog_product_related',
         'adminhtml_catalog_product_relatedGrid',
         'adminhtml_catalog_product_save',
-        'adminhtml_catalog_product_validate'
+        'adminhtml_catalog_product_validate',
+        'adminhtml_catalog_product_grid'
     );
 
     protected function _isAllowed()
